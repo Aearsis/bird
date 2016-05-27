@@ -1264,6 +1264,8 @@ protos_build(void)
 #endif
 #ifdef CONFIG_IGMP
   proto_build(&proto_igmp);
+#ifdef CONFIG_PIM
+  proto_build(&proto_pim);
 #endif
 
   proto_pool = rp_new(&root_pool, "Protocols");

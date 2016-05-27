@@ -21,6 +21,7 @@
 #define IP4_OSPF_DES_ROUTERS	ipa_build4(224, 0, 0, 6)
 #define IP4_RIP_ROUTERS		ipa_build4(224, 0, 0, 9)
 #define IP4_IGMP_ROUTERS	ipa_build4(224, 0, 0, 22)
+#define IP4_PIM_ROUTERS		ipa_build4(224, 0, 0, 13)
 
 #define IP6_ALL_NODES		ipa_build6(0xFF020000, 0, 0, 1)
 #define IP6_ALL_ROUTERS		ipa_build6(0xFF020000, 0, 0, 2)
@@ -28,6 +29,7 @@
 #define IP6_OSPF_DES_ROUTERS	ipa_build6(0xFF020000, 0, 0, 6)
 #define IP6_RIP_ROUTERS		ipa_build6(0xFF020000, 0, 0, 9)
 #define IP6_BABEL_ROUTERS	ipa_build6(0xFF020000, 0, 0, 0x00010006)
+#define IP6_PIM_ROUTERS		ipa_build6(0xff020000, 0, 0, 13)
 
 #define IP4_NONE		_MI4(0)
 #define IP6_NONE		_MI6(0,0,0,0)
